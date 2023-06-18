@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Job lookup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}"></style> 
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+  <ul class="navbar-nav">
+    <!-- Dropdown -->
+    <li class="nav-item">
+      <a class="nav-link" href="/Applicants">Find Applicants</a>
+    </li>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Onsite - Fulltime </a>
+      <a class="dropdown-item" href="#">Onsite - Parttime</a>
+      <a class="dropdown-item" href="#">Remote - Fulltime</a>
+      <a class="dropdown-item" href="#">Remote - Parttime</a>
+    </div>
+  </li>
+   
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Find Jobs
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="/OnSiteFull">Onsite - Fulltime </a>
+        <a class="dropdown-item" href="/OnSitePart">Onsite - Parttime</a>
+        <a class="dropdown-item" href="/RemoteFull">Remote - Fulltime</a>
+        <a class="dropdown-item" href="/RemotePart">Remote - Parttime</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/login">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/add_user">Signup</a>
+    </li>
+    
+  </ul>
+</nav>
+<br>
+
+<div class="container-fluid">
+    <div class="jumbotron text-center">
+      <div class="">
+        <h1>About Us</h1>
+       
+      </div>
+        <div class="blockquote-footer">
+        <p><I>Welcome to our job site, where opportunities meet talents. We are dedicated to connecting job recruiters, applicants, and a diverse range of job advertisements to facilitate the perfect match. Our platform serves as a gateway to a world of career possibilities, empowering individuals and organizations alike to achieve their professional goals.
+          At Joblookup, we understand the unique needs of both job seekers and employers. For job recruiters, we offer a seamless and efficient process to attract top talent. Our user-friendly interface allows you to create detailed job listings, ensuring that your vacancies reach a wide audience of qualified candidates. With powerful search and filtering options, you can quickly identify the most suitable candidates, streamlining your hiring process and saving valuable time and resources.
+          For job seekers, we provide a comprehensive platform that simplifies the job search journey. Whether you are a seasoned professional or just starting your career, our job site offers a wide array of opportunities across various industries and job types. You can easily browse through our extensive database of job listings, filter results based on your preferences, and submit applications with a few clicks. Our aim is to empower you to discover the perfect job that aligns with your skills, interests, and aspirations.
+          We pride ourselves on maintaining a diverse and inclusive job marketplace. We believe that every individual deserves equal access to opportunities, regardless of their background or experience. Our commitment to diversity extends to the job advertisements on our platform, ensuring that a wide range of industries, roles, and skill levels are represented. We strive to foster an environment where job seekers from all walks of life can thrive and find their ideal career path.
+          At Joblookup, we are driven by our passion for connecting talent with opportunity. We continuously innovate and improve our platform to provide an exceptional user experience for both job recruiters and applicants. We value transparency, integrity, and professionalism in all our interactions, building trust among our users and establishing long-lasting relationships.
+          Join us today and embark on an exciting journey of career growth and fulfillment. Together, let's unlock the potential within you and shape a brighter future for the job market.
+          </I>
+        </div>
+      </div>
+      
+</div>
+
+</body>
+</html>
